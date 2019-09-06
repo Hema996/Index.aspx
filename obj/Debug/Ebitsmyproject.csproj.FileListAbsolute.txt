@@ -1,0 +1,5 @@
+C:\Users\home\Documents\Visual Studio 2012\Projects\Ebitsmyproject\Ebitsmyproject\bin\Ebitsmyproject.dll
+C:\Users\home\Documents\Visual Studio 2012\Projects\Ebitsmyproject\Ebitsmyproject\bin\Ebitsmyproject.pdb
+C:\Users\home\Documents\Visual Studio 2012\Projects\Ebitsmyproject\Ebitsmyproject\obj\Debug\Ebitsmyproject.dll
+C:\Users\home\Documents\Visual Studio 2012\Projects\Ebitsmyproject\Ebitsmyproject\obj\Debug\Ebitsmyproject.pdb
+C:\Users\home\Documents\Visual Studio 2012\Projects\Ebitsmyproject\Ebitsmyproject\obj\Debug\Ebitsmyproject.csprojResolveAssemblyReference.cache

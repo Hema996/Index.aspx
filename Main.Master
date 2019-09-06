@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Ebitsmyproject.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        b {
+            color: black;
+        }
+
+
+        #footer {
+            position: fixed;
+            bottom: 0px;
+            background-color: black;
+            width: 100%;
+            color: white;
+            height: 80px;
+            padding: 20px;
+        }
+          p {
+            line-height:30px;
+            font-size:medium;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="font-family:'Times New Roman'">
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid" style="background-color: white">
+                        <div class="col-sm-4">
+                            <div class="navbar-header">
+                                <a class="navbar-brand" href="#">
+                                    <img src="images/eons.png" style="height: 30px; width: 300px" /></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <ul class="nav navbar-nav">
+                                <li><a href="Index.aspx"><b>HOME</b></a></li>
+                                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b>LOCATION</b><span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Address</a></li>
+                                        <li><a href="#">Fax</a></li>
+                                        <li><a href="#">User</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><b>SOLUTION</b></a></li>
+                                <li><a href="Services.aspx"><b>SERVICES</b></a></li>
+                                <li><a href="Aboutus.aspx"><b>ABOUT US</b></a></li>
+                                <li><a href="Support.aspx"><b>SUPPORT</b></a></li>
+                                <li><a href="Contactus.aspx"><b>CONTACT US</b></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    
+        
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+        
+        <%--<div class="container">
+            <div class="row">
+        <div class="col-sm-12">
+         
+            <div class="navbar navbar-inverse" style="font-size: small">
+                <div class="container">
+                    <%--<div class="col-sm-6">--%>
+                        <%--<p class="navbar-text pull-left">
+                            © 2015-2019 ALL RIGHTS RESERVED
+                        </p>--%>
+                    <%--</div>--%>
+                <%--</div>--%>
+                <%--<div class="col-sm-6">--%>
+                  <%--  <ul class="nav navbar-nav" style="color: white">
+
+                        <li><a href="#" style="color: white">SOLUTION</a></li>
+                        <li><a href="#" style="color: white">SERVICES</a></li>
+                        <li><a href="#" style="color: white">ABOUT US</a></li>
+                        <li><a href="#" style="color: white">SUPPORT</a></li>
+                        <li><a href="#" style="color: white">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+      
+     </div>
+       </div>--%>
+    </form>
+</body>
+</html>
